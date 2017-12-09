@@ -1,12 +1,10 @@
 language: python
 python: 
- - "3.2"
- - "3.3"
- - "3.4"
+ - "3.6"
 
 # install: 
 # - pip install coverage
 # - pip install python-coveralls
 
 script:
- - python3 ./avg_test.py
+ - python3 ./test_avg.py
